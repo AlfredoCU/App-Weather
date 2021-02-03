@@ -26,7 +26,7 @@ const Results = ({ data }) => {
                   <div key={item.id}>
                     <img
                       className="img-weather"
-                      src={`http://openweathermap.org/img/wn/${item.icon}@2x.png`}
+                      src={`https://openweathermap.org/img/wn/${item.icon}@2x.png`}
                       alt="Clima"
                     />
                     <p className="description">{item.description}</p>
